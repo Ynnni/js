@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Circumference calculatino</title>
+    <script type="text/javascript">
+      document.addEventListener('DOMContentLoaded', function(){
+        let d = window.prompt("Please enter value of 'd' diameter");
+        d = parseFloat(d);
+        let l = Math.PI * d
+
+        alert(`l = ${l}`);
+
+        document.getElementById('d').innerHTML = `d = ${d}`
+        document.getElementById('l').innerHTML = `l = ${l}`
+      });
+    </script>
+  </head>
+  <body>
+    <p id="d"></p>
+    <p id="l"></p>
+  </body>
+</html>

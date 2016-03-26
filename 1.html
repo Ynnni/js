@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Square perimeter calculation</title>
+    <script type="text/javascript">
+      document.addEventListener('DOMContentLoaded', function(){
+        let a = window.prompt("Please enter value of 'a' side");
+        a = parseFloat(a);
+        let p = 4 * a;
+
+        alert(`p = ${p}`);
+
+        document.getElementById('a').innerHTML = `a = ${a}`
+        document.getElementById('p').innerHTML = `p = ${p}`
+      });
+    </script>
+  </head>
+  <body>
+    <p id="a"></p>
+    <p id="p"></p>
+  </body>
+</html>
